@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.my.doesnothing"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <application
+11-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:5:2-32:16
+12        android:name="com.my.doesnothing.SketchApplication"
+12-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:9:3-36
+13        android:allowBackup="true"
+13-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:6:3-29
+14        android:debuggable="true"
+15        android:extractNativeLibs="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:7:3-37
+17        android:label="@string/app_name"
+17-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:8:3-35
+18        android:requestLegacyExternalStorage="true"
+18-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:10:3-46
+19        android:theme="@style/AppTheme"
+19-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:12:3-34
+20        android:usesCleartextTraffic="true" >
+20-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:11:3-38
+21        <activity
+21-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:13:3-24:14
+22            android:name="com.my.doesnothing.MainActivity"
+22-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:14:4-32
+23            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+23-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:15:4-97
+24            android:exported="true"
+24-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:19:4-27
+25            android:hardwareAccelerated="true"
+25-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:16:4-38
+26            android:screenOrientation="portrait"
+26-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:18:4-40
+27            android:supportsPictureInPicture="true" >
+27-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:17:4-43
+28            <intent-filter>
+28-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:20:4-23:20
+29                <action android:name="android.intent.action.MAIN" />
+29-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:21:5-57
+29-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:21:13-54
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:22:5-65
+31-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:22:15-62
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:25:3-28:52
+35            android:name="com.my.doesnothing.DebugActivity"
+35-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:26:4-33
+36            android:screenOrientation="portrait"
+36-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:27:4-40
+37            android:theme="@style/AppTheme.DebugActivity" />
+37-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:28:4-49
+38
+39        <uses-library
+39-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:29:3-31:31
+40            android:name="org.apache.http.legacy"
+40-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:30:4-41
+41            android:required="false" />
+41-->/storage/emulated/0/Download/DOC-20260228-WA0007/app/src/main/AndroidManifest.xml:31:4-28
+42    </application>
+43
+44</manifest>
